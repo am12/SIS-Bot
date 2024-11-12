@@ -21,6 +21,11 @@ conda activate sisbot
 conda install python=3.9 selenium
 ```
 
+### BETTER YET: just run the standalone executable ###
+```
+./dist/bot <jhedid@jh.edu>
+```
+
 SIS uses the naval observatory clock to determine time. Therefore, your system must be synced to this clock to ensure the bot does not click too early or too late. On Mac OS, it is really easy to change your default.
 
 1. Navigate to System Preferences and click Date and Time.
