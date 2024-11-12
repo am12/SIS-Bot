@@ -1,0 +1,28 @@
+package:
+  name: sisbot          
+  version: "5.0.0"                 # Version number of your package
+
+source:
+  url: https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+
+build:
+  noarch: python                   # Specifies a noarch build for cross-platform
+  number: 0                        # Build number, increment this if making changes without changing version
+  script: build.sh
+
+requirements:
+  host:
+    - python                      
+    - selenium
+
+  run:
+    - python >=3.9     
+    - selenium
+
+test:
+  imports:
+    - selenium
+
+about:
+  home: https://github.com/am12/SIS-Bot 
+  license: MIT            

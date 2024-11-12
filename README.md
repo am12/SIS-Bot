@@ -1,5 +1,5 @@
-# SIS Bot v4 #
-### (updated from nkrishn9's and yzhan289's SIS Bots)  ###
+# SIS Bot (alan ver) #
+### (updated from nkrishn9's and yzhan289's and bwong19's SIS Bots)  ###
 
 This selenium bot allows you to register for classes on the Johns Hopkins SIS portal right at 7:00 AM, virtually guaranteeing a spot in all of your classes.
 
@@ -12,6 +12,13 @@ git clone https://github.com/bwong19/SIS-Bot.git
 cd SIS-Bot
 pip install -r requirements.txt
 brew install chromedriver
+```
+
+### WARNING: Brew and Pip are known to have cross-compatibility issues. If so, install using the following conda recipe. ###
+```
+conda create -n sisbot
+conda activate sisbot
+conda install python=3.9 selenium
 ```
 
 SIS uses the naval observatory clock to determine time. Therefore, your system must be synced to this clock to ensure the bot does not click too early or too late. On Mac OS, it is really easy to change your default.
