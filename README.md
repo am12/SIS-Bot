@@ -8,7 +8,7 @@ This selenium bot allows you to register for classes on the Johns Hopkins SIS po
 ## Setup Instructions ##
 Open Terminal and navigate to the directory you wish to install in (e.g. ~/Documents). Run the following commands:
 ```
-git clone https://github.com/bwong19/SIS-Bot.git
+git clone https://github.com/am12/SIS-Bot.git
 cd SIS-Bot
 pip install -r requirements.txt
 brew install chromedriver
